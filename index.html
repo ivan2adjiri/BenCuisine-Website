@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BenCuisine</title>
+
+  <!-- Bootstrap Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+
+  <!-- Header Start -->
+  <header class="header p-3 position-absolute start-0 top-0 end-0">
+    <div class="d-flex justify-content-between align-items-center">
+      <a href="/" class="text-decoration-none text-white fs-5 fw-bold">BenCuisine</a>
+
+      <div>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Flyout Navigation Start -->
+  <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+    <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+
+      <div class="row align-items-start">
+
+        <div class="col-12 col-sm-4 mt-4">
+          <a href="#" class="row text-decoration-none">
+            <div class="col-2 col-sm-12 mb-4">
+              <img src="img/tab.jpg" alt="" class="img-fluid" width="500" height="700" loading="lazy">
+            </div>
+            <div class="col-10">
+              <h3>About<br> BenCuisine</h3>
+              <p>Find out more about BenCuisine and our delicious dishes.</p>
+              <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 mt-4">
+          <a href="#" class="row text-decoration-none">
+            <div class="col-2 col-sm-12 mb-4">
+              <img src="img/blacko.jpg" alt="" class="img-fluid" width="500" height="700" loading="lazy">
+            </div>
+            <div class="col-10">
+              <h3>BenCuisine Culinary Traditions</h3>
+              <p>Our ambience at the restaurant sets the tone,and a taste of our meals completes the experience.</p>
+              <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4 mt-4">
+          <a href="#" class="row text-decoration-none">
+            <div class="col-2 col-sm-12 mb-4">
+              <img src="img/beef.jpg" alt="" class="img-fluid" width="500" height="700" loading="lazy">
+            </div>
+            <div class="col-10">
+              <h3>African Cuisine in the Heart of Accra</h3>
+              <p>Showcasing our Ghanaian hospitality in the best way possible through our services provided at our restaurant.</p>
+              <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </button>
+
+    </div>
+
+  </nav>
+  <!-- Flyout Navigation End -->
+
+  <!-- Hero Start -->
+  <section class="hero">
+
+    <div class="hero__overlay"></div>
+
+    <!--Video section---->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" class="hero__video">
+      <source src="img/myfood.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero__content h-100 container-custom position-relative">
+      <div class="d-flex h-100 align-items-center hero__content-width">
+        <div class="text-white">
+          <h1 class="hero__heading fw-bold mb-4">Discover The Taste Of Africa.</h1>
+          <p class="lead mb-4">Get to taste real African dishes at an affordable rate.</p>
+          <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#scroll-down" class="hero__scroll-btn">
+      Explore <i class="bi bi-arrow-down-short"></i>
+    </a>
+
+  </section>
+  <!-- Hero End -->
+
+  <a id="scroll-down"></a>
+  <!-- Section One Start -->
+  <section class="steps container-custom">
+
+    <div class="row">
+      <div class="col-12 col-sm-6 d-md-flex justify-content-md-ceneter">
+        <img src="img/cuisine1.jpg" alt="Coffe Flavour" class="img-fluid pb-4 steps__section-thumbnail" width="553" height="746" loading="lazy">
+      </div>
+
+      <div class="col-12 col-sm-6 align-self-center justify-content-md-ceneter">
+
+        <div class="steps__content-width">
+          <span>01</span>
+          <h1 class="h2 mb-4">About Us</h1>
+          <p class="mb-4">Here,ancient customs and future trends coexist,and the intricacies of African culture blend seamlessly together over 
+            Ethiopian-based coffee,or a bowl of Senegalese blacked-eyed pea stew  and a side of spicy Ghanaian plantains.<br><br>
+            Inspired by our Co-Founder and Executive Chef Lionel Anderson's mission to share African culture through food,BenCuisine reflects 
+            the depth,richness, and vibrancy of Africa's diverse culinary traditions in a modern fast-casual setting.
+            </p>
+
+          <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- Section One End -->
+
+  <!-- Section One Start -->
+  <section class="steps steps--background">
+
+    <div class="container-custom">
+
+      <div class="row">
+        <div class="col-12 col-sm-6 d-md-flex justify-content-md-ceneter order-sm-1">
+          <img src="img/chef.jpg" alt="" class="img-fluid pb-4 steps__section-thumbnail" width="553" height="746" loading="lazy">
+        </div>
+
+        <div class="col-12 col-sm-6 align-self-center justify-content-md-ceneter">
+          <div class="steps__content-width">
+            <span>02</span>
+            <h1 class="h2 mb-4">BenCuisine Culinary Traditions</h1>
+            <p class="mb-4">Our restaurant is an evocative description of the excitement and lifestyle of the African landscape. The calm and scenic setting sets the tone, and a taste of our meals completes the enthralling BenCuisine culinary experience.</p>
+            <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Section One End -->
+
+  <!-- Section One Start -->
+  <section class="steps container-custom">
+
+    <div class="row">
+      <div class="col-12 col-sm-6 d-md-flex justify-content-md-ceneter">
+        <img src="img/bulbs.jpg" alt="" class="img-fluid pb-4 steps__section-thumbnail" width="553" height="746" loading="lazy">
+      </div>
+
+      <div class="col-12 col-sm-6 align-self-center justify-content-md-ceneter">
+
+        <div class="steps__content-width">
+          <span>03</span>
+          <h1 class="h2 mb-4">African Cuisine in the heart of Accra</h1>
+          <p class="mb-4">Our showcase of Ghanaian hospitality is in the wild aromas, cultural ambiance and memorable flavours of our food and drinks. The culinary adventures tell a way of life and the journey begins with you at our table.</p>
+          <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- Section One End -->
+
+  <!-- Section With 3 Col's Start -->
+  <section class="bg-dark text-white py-4">
+    <div class="container-custom my-4">
+      <div class="row">
+
+        <div class="col-12 col-sm-4 mb-4">
+          <img src="img/din1.jpg" class="mb-4 img-fluid" alt="" width="441" height="248" loading="lazy">
+          <h3>Catering</h3>
+          <p>We offer a wide range of catering services from Buffet set-up for Breakfast,Lunch and Dinner.Let us be your personal chef
+            for your Special Event! Our staff members are well resourced to serve your needs at all times. </p>
+        </div>
+
+        <div class="col-12 col-sm-4 mb-4">
+          <img src="img/din2.jpg" class="mb-4 img-fluid" alt="" width="441" height="248" loading="lazy">
+          <h3>Family Dinner</h3>
+          <p>Gather around with the whole family and enjoy a family style meal with the help of our staff.We offer different types of African 
+            dishes to meet the current demands of our cherished clients. </p>
+        </div>
+
+        <div class="col-12 col-sm-4 mb-4">
+          <img src="img/din3.jpg" class="mb-4 img-fluid" alt="" width="441" height="248" loading="lazy">
+          <h3>Events</h3>
+          <p>We provide tasty,delicious food with premium quality ingredients for companies,businesses and the like.This services may range from buffets to simple company events 
+            within Accra and beyond.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section With 3 Col's End -->
+
+  <!-- Footer Start -->
+  <footer class="footer bg-dark text-white">
+    <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="me-2 text-muted text-decoration-none">
+          <i class="bi bi-cup"></i>
+          <span>&copy; 2023 BenCuisine</span>
+        </a> 
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+        <li class="ms-3 "><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+      </ul>
+
+
+    </div>
+
+
+
+  </footer>
+  <!-- Footer End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
